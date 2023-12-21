@@ -1,0 +1,179 @@
+img{
+    max-width: 100%;
+}
+
+body{
+    margin: 0;
+    line-height: 1.4;
+   }
+header{
+    /* box-shadow: 0 5px 20px #2d2d2d1c; */
+    padding: 12px 0;
+    border-bottom: 2px solid #3b506c1c;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{}
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+
+}
+nav ul li a {
+    font-size: 22px;
+    color: #803ed4;
+    text-decoration:none;
+    display: block;
+    padding: 10px 20px;
+  }
+
+  nav ul li a:hover{
+    color: #3b506c;
+  }
+
+ 
+
+  section{}
+
+  .about-section{
+        text-align: center;
+        padding: 50px 0;
+  }
+  .about-section h1{
+        font-size: 65px;
+        color: #3b506c;
+        max-width: 700px;
+        margin: 0 auto;
+  }
+  .about-section h1 span{
+        color:#0c66ff
+
+  }
+  .about-section p {
+    font-size: 20px;
+    color: #3b506c;
+    padding: 15px;
+}
+
+section img{
+    margin: auto;
+    display: block;
+    max-width: 500px;
+}
+
+
+.feature-section {
+        margin: 50px;
+    }
+
+.colum {
+    width: 50%;
+    float: left;
+}
+
+.feature{
+    padding: 25px;
+}
+
+.feature h2{
+    font-size: 60px;
+    margin: 0;
+}
+.feature h2 span{
+    color: red;
+}
+.feature p{
+    margin: 0;
+    font-size: 20px;
+    color: #3b506c;
+   }
+
+ .align-right{
+    text-align: right;
+       }
+
+
+
+.blog-section{}
+
+.col{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.blog-1{
+    background-color: #FBEDED;
+    padding: 20px;
+}
+.blog-2{
+    background-color: #EBF9F4;
+    padding: 20px;
+}
+.blog-3{
+    background-color: #FFF7E8;
+    padding: 20px;
+}
+.blog img{
+    height: 250px;
+    width: 300px;
+    padding: 15px;
+}
+.blog h3{
+    
+color: #3b506c;
+    
+font-size: 22px;
+    
+margin: 0;
+}
+.blog p{
+    color: #3b506c;
+    font-size: 18px;
+    }
+footer{
+    background-color: #0c66ff;
+    text-align: center;
+    padding: 50px 50px;
+}
+
+footer p{
+    margin: 0;
+    color: #fff;
+}
+
+footer p a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 1px;
+    
+}
+
+@media (max-width: 1024px) {
+    h1, h2, h3{
+        font-size: -10px;
+    }
+
+    footer{
+        font-size: small;
+    }
+}
